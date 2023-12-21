@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+     /* Add some basic styling */
+     body {
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color:#d6e1f0;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .card {
+      width: 300px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .card img {
+      width: calc(100% - 20px);
+      height: auto;
+      border-bottom: 1px solid #ddd;
+      border-radius: 8px;
+      margin: 10px;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-title {
+      font-size: 20px;
+      color: #35425d;
+      font-weight: bold;
+      margin-bottom: 15px;
+      text-align: center;
+      margin-top: -20px;
+
+    }
+
+    .card-description {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 15px;
+      color: #555;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+
+  <!-- Card container -->
+  <div class="card">
+    <!-- Card image -->
+    
+      <img src="images/image-qr-code.png" alt="Card Image">
+    
+
+    <!-- Card content -->
+    <div class="card-content">
+      <!-- Card title -->
+      <div class="card-title">Improve your front-end skills by building projects</div>
+
+      <!-- Card description -->
+      <div class="card-description">Scan the QR Code to visit Frontend Mentor and take your coding skills to the next level</div>
+    </div>
+  </div>
+
+</body>
+</html>
